@@ -18,6 +18,12 @@ navLinks.addEventListener("click", () => {
 
 /* ========== SCROLLREVEAL ========== */
 /* ========== HEADER ========== */
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+
 ScrollReveal().reveal(".header__container p", {
   ...scrollRevealOption,
 });

@@ -56,4 +56,15 @@ ScrollReveal().reveal(".about__btn", {
 
 /* ========== ROOM ========== */
 
+ScrollReveal().reveal(".room__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
 /* ========== SERVICE ========== */
+
+ScrollReveal().reveal(".service__list li", {
+  ...scrollRevealOption,
+  interval: 500,
+  origin: "right",
+});
